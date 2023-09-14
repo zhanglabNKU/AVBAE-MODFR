@@ -13,6 +13,7 @@ pip install -r requirements.txt
 ```
 
 # 2. Prepare dataset
+Download supporting [data] (https://drive.google.com/drive/folders/1B231UFPN9qNqqKSjPaMqjkGlioHKHcEv?usp=drive_link).
 ## 2.1 Download the original dataset
 Download TCGA pan-cancer DNA methylation dataset.
 ```
@@ -31,17 +32,17 @@ bash prepare_dataset.sh
 After that, we have two novel files under `./data/h5/`
 
 # 3. Train AVBAE
-## 3.1 Model Training
+## 3.1 Model training
 ```
 bash train_avbae.sh
 ```
-## 3.2 SVM Classifier Training
+## 3.2 SVM classifier training
 ```
 python -m svm_lf.py
 ```
 # 4. Train AVBAE-MODFR(MODFR w/o pre-trained encoder)
 For a fair comparison, we upload our preprocessed sub-datasets and 5-fold dataset splits results.
-## 4.1 Model Training
+## 4.1 Model training
 ```
 bash train_modfr.sh
 ```
