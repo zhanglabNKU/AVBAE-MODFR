@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 
 # 2. Prepare dataset
-Download supporting [data] (https://drive.google.com/drive/folders/1B231UFPN9qNqqKSjPaMqjkGlioHKHcEv?usp=drive_link).
+Download supporting [data](https://drive.google.com/drive/folders/1B231UFPN9qNqqKSjPaMqjkGlioHKHcEv?usp=drive_link).
 ## 2.1 Download the original dataset
 Download TCGA pan-cancer DNA methylation dataset.
 ```
