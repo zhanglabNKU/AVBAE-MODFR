@@ -29,7 +29,7 @@ Return your root path and run the following command.
 ```
 bash prepare_dataset.sh
 ```
-After that, we have two novel files under `./data/h5/`
+After that, we have two files under `./data/h5/`
 
 # 3. Train AVBAE
 ## 3.1 Model training
